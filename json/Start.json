@@ -1,0 +1,112 @@
+
+
+
+{
+  "business": {
+    "name": "Pizza Nápoli",
+    "address": "Lord Cochrane 277 dpto 1013",
+    "city": "Santiago",
+    "country": "Chile",
+    "logo": "https://thumbs.dreamstime.com/b/avatar-del-trabajo-en-equipo-restaurante-129376801.jpg"
+  },
+  "survey": {
+    "session_id": "14544",
+    "uuid": "88b6e7de-183e-11ed-861d-0242ac120002",
+    "endpoint": "https://survey-dev.starmetrics.cl/88b6e7de-183e-11ed-861d-0242ac120002",
+    "disclaimer": "Esta encuesta te tomara 5 minutos",
+    "show_disclaimer": true,
+	"use_nps": true,
+	"use_digitalbook": true,
+    "section": [
+      {
+        "id": "1",
+        "description": "Normal",
+        "type": "Normal",
+        "title": "Por favor evalúe nuestros servicios:",
+        "sub_title": "Subtitle",
+        "show_sub_title": true,
+        "disclaimer": "Disclaimer",
+        "show_disclaimer": true,
+        "required": true,
+        "question": [
+          {
+            "id": "1",
+            "language": "es",
+            "type": "Rate-Small",
+            "data_type": "numeric",
+            "position": "1",
+            "required": true,
+            "min_value": "1",
+            "max_value": "4",
+            "question": "¿Cómo evalúa nuestros productos?",
+            "place_holder": "",
+            "pattern": ""
+          },
+          {
+            "id": "2",
+            "language": "es",
+            "type": "Rate-Small",
+            "data_type": "numeric",
+            "position": "2",
+            "required": true,
+            "min_value": "1",
+            "max_value": "4",
+            "question": "¿Cómo evalúa nuestros bebestibles?",
+            "place_holder": "",
+            "pattern": ""
+          },
+          {
+            "id": "3",
+            "type": "Input",
+            "data_type": "text",
+            "position": "3",
+            "required": true,
+            "min_value": "1",
+            "max_value": "300",
+            "question": "¿Cafecito?",
+            "place_holder": "",
+            "pattern": ""
+          }
+        ]
+      },
+	  {
+        "id": "2",
+        "description": "Normal",
+        "type": "Normal",
+        "title": "Por favor complete estos otros datos:",
+        "sub_title": "Subtitle",
+        "show_sub_title": true,
+        "disclaimer": "Disclaimer",
+        "show_disclaimer": true,
+        "required": true,
+        "question": [
+          {
+            "id": "4",
+            "language": "es",
+            "type": "Rate-Small",
+            "data_type": "numeric",
+            "position": "1",
+            "required": true,
+            "min_value": "1",
+            "max_value": "4",
+            "question": "¿Cómo evalúa nuestros servicios?",
+            "place_holder": "",
+            "pattern": ""
+          },
+          {
+            "id": "5",
+            "type": "Input",
+            "data_type": "text",
+            "position": "3",
+            "required": true,
+            "min_value": "1",
+            "max_value": "300",
+            "question": "¿Color favorito?",
+            "place_holder": "",
+            "pattern": ""
+          }
+        ]
+      }
+    ]
+  }
+}

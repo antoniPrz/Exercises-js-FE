@@ -1,0 +1,37 @@
+
+{
+  "survey": {
+    "session_id": "10506",
+    "uuid": "0b7f415a-f9dd-4a65-a2a9-3f9d3e9afe10",
+    "nps" : 10,
+    "answer": [
+      {
+        "question_id": "1",
+        "answer_value": "3"
+      },
+      {
+        "question_id": "2",
+        "answer_value": "4"
+      },
+      {
+        "question_id": "3",
+        "answer_value": "si, cortado por favor."
+      },
+      {
+        "question_id": "4",
+        "answer_value": "2"
+      },
+      {
+        "question_id": "5",
+        "answer_value": "azul"
+      }
+    ], 
+    "digital_book": {
+      "agree": true,
+      "name": "nombre",
+      "text": "TEXTO LIBRE",
+      "phone": "569994499949",
+      "email": "prueba@starmetrics.cl" 
+    }
+  }
+}
